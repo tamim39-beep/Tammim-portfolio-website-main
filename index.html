@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicons/favicon2.svg" />
+
+    <meta name="theme-color" content="#a789d4" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Tammim | Portofolio</title>
+  </head>
+  <body>
+    <div class="loading-screen" id="loading-screen">
+      <img
+        src="assets/img/tammim-logo.png"
+        alt="Tammim Logo"
+        class="loading-logo"
+      />
+    </div>
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"
+          ><img
+            src="assets/img/favicon2.svg"
+            alt="Tammim Logo"
+            class="tammim-logo"
+        /></a>
+
+            <a href="https://www.kodein.sch.id/" class="footer__link"
+              ><img
+                src="assets/img/logo-kodein-flat.png"
+                alt="Logo Kodein"
+                class="kodein-logo-footer"
+                target="_blank"
+            /></a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="bx bx-home"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-briefcase-alt-2"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-dots"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <i
+          class="bx bx-moon change-theme change-theme-button"
+          id="theme-button"
+        ></i>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Halo, saya</span>
+            <h1 class="home__name">Tammim Al Ghozi</h1>
+            <h3 class="home__education">Pengembang Frontend</h3>
+
+            <div class="home__button">
+              <a
+                href="#contact"
+                class="button button--ghost"
+              >
+                Contact Me
+              </a>
+              <a href="#about" class="button">Tentang</a>
+            </div>
+          </div>
+
+          <div class="home__handle">
+            <img src="assets/img/home.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://app.netlify.com/teams/tamim39-beep/projects"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-netlify"></i>
+            </a>
+            <a
+              href="https://github.com/tamim39-beep"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://dribbble.com/tamim39-beep"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-dribbble"></i>
+            </a>
+          </div>
+
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Gulir ke Bawah</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <span class="section__subtitle">Perkenalan Saya</span>
+        <h2 class="section__title">Tentang Saya</h2>
+
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Pengalaman</h3>
+                <span class="about__subtitle">1 th sekolah di kodein</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-briefcase-alt about__icon"></i>
+                <h3 class="about__title">Selesai</h3>
+                <span class="about__subtitle">12+ Proyek</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-support about__icon"></i>
+                <h3 class="about__title">Dukungan</h3>
+                <span class="about__subtitle">Online 24/7</span>
+              </div>
+            </div>
+
+            <p class="about__description">
+Halo! Saya Tammim Al-Ghozi, seorang pelajar yang baru mulai mendalami 
+dunia IT dan pengembangan web di Kodein selama satu tahun terakhir.
+
+Selama masa belajar ini, saya telah mempelajari dasar-dasar HTML, CSS, dan JavaScript, 
+serta bagaimana membangun sebuah website yang responsif, interaktif, dan menarik secara visual.
+            </p>
+
+            <a href="#contact" class="button about__button-contact"
+              >Hubungi Saya</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">Kemampuan Saya</span>
+        <h2 class="section__title">Pengalaman Saya</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Pengembangan Frontend</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">CSS/SCSS</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">React</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Next.js</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <span class="section__subtitle">Portofolio Saya</span>
+        <h2 class="section__title">Karya Terbaru</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">Semua</span>
+          <span class="work__item" data-filter=".web"
+            >Html, Css, Javascript</span
+          >
+          <span class="work__item" data-filter=".movil">React</span>
+          <span class="work__item" data-filter=".design">Next.js</span>
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="assets/img/progaming-1.png" alt="" class="work__img" />
+            <h3 class="work__title">Html, Css, Javascript</h3>
+            <a
+              href="https://tugas-frontend-3.netlify.app/"
+              class="work__button"
+              target="_blank"
+            >
+              Demo <i class="bx bx-right-arrow work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix movil">
+            <img src="assets/img/react 1.png" alt="" class="work__img" />
+            <h3 class="work__title">React</h3>
+            <a
+              href="https://challenge-13.netlify.app/"
+              class="work__button"
+              target="_blank"
+            >
+              Demo <i class="bx bx-right-arrow work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix design">
+            <img src="assets/img/next.js.png" alt="" class="work__img" />
+            <h3 class="work__title">Next.js</h3>
+            <a
+              href="https://tugas-tamim-frontend-8.netlify.app/"
+              class="work__button"
+              target="_blank"
+            >
+              Demo <i class="bx bx-right-arrow work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix web">
+            <img
+              src="assets/img/Screenshot 2025-06-13 134354.png"
+              alt=""
+              class="work__img"
+            />
+            <h3 class="work__title">Html, Css, Javascript</h3>
+            <a
+              href="https://tugas-tamim-challenge9.netlify.app/"
+              class="work__button"
+              target="_blank"
+            >
+              Demo <i class="bx bx-right-arrow work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix movil">
+            <img src="assets/img/react 2.png" alt="" class="work__img" />
+            <h3 class="work__title">React</h3>
+            <a
+              href="https://tugas-challenge-10.netlify.app/"
+              class="work__button"
+              target="_blank"
+            >
+              Demo <i class="bx bx-right-arrow work__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Hubungi Saya</span>
+        <h3 class="section__title">Hubungi Saya</h3>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title contact__title-info">
+              Bicara dengan saya
+            </h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">tammimalghozi@gmail.com</span>
+
+                <a
+                  href="mailto:tammimalghozi@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Kirim Pesan
+                  <i class="bx bx-right-arrow contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">+62 838-7008-7307</span>
+
+                <a
+                  href="https://api.whatsapp.com/send?phone=+6283870087307&text=Halo!"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Kirim Pesan
+                  <i class="bx bx-right-arrow contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-twitter contact__card-icon"></i>
+                <h3 class="contact__card-title">Twitter</h3>
+                <span class="contact__card-data">@tghzyy_</span>
+
+                <a
+                  href="https://twitter.com/tghzyy_"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Kirim Pesan
+                  <i class="bx bx-right-arrow contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title contact__title-form">Tulis Pesan Anda</h3>
+
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="nama" class="contact__form-tag">Nama</label>
+                <input
+                  type="text"
+                  id="nama"
+                  placeholder="Masukkan nama"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="email" class="contact__form-tag">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Masukkan email"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="pesan" class="contact__form-tag">Pesan</label>
+                <textarea
+                  name="pesan"
+                  id="pesan"
+                  cols="30"
+                  rows="10"
+                  placeholder="Tulis Pesan Anda"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="button">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Tammim</h1>
+
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#home" class="footer__link">Beranda</a>
+          </li>
+          <li class="footer__item">
+            <a href="#about" class="footer__link">Tentang</a>
+          </li>
+          <li class="footer__item">
+            <a href="#skills" class="footer__link">Keterampilan</a>
+          </li>
+          <li class="footer__item">
+            <a href="#work" class="footer__link">Karya</a>
+          </li>
+          <li class="footer__item">
+            <a href="#contact" class="footer__link">Kontak</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <li class="footer__social-item">
+            <a
+              href="https://twitter.com/tghzyy_"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-twitter footer__social-icon"></i>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              href="https://linkedin.com/in/tammimalghozi"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-linkedin footer__social-icon"></i>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              href="https://instagram.com/tammimalghozi"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram footer__social-icon"></i>
+            </a>
+          </li>
+
+          </li>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; 2025 S44WN. Hak cipta dilindungi.
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
